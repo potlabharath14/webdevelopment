@@ -1,0 +1,181 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/726/764/940/dark-green-minimalism-geometry-abstraction-wallpaper-preview.jpg')
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Header */
+.header-title {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+    background-color: #000000;
+    padding: 20px;
+}
+
+/* Product Grid */
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.product {
+    color: #ffffff;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 3px 4px 8px rgba(233, 230, 230, 0.1);
+    background-color: rgba(61, 195, 219, 0.021);
+    backdrop-filter: blur(10px);
+    border-top: 1px solid rgba(19, 18, 18, 0.4);
+    border-left: 1px solid rgba(26, 25, 25, 0.3);
+    
+}
+
+.product img {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+}
+
+.product p {
+    margin: 10px 0;
+}
+
+.product button {
+    color: #0056b3;
+    padding: 10px;
+    border: 1px solid #0056b3;
+    background-color: #0057b311;
+    backdrop-filter: blur(10px);
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.product button:hover {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 11px;
+}
+
+/* Cart Section */
+.cart-section {
+    margin-top: 40px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cart-section h2{
+background-color: #020202;
+color: #ffffff;
+width: 20%;
+padding: 5px 5px;
+text-align: center;
+border-radius: 10px;
+} 
+
+.cart-items {
+    max-height: 300px;
+    overflow-y: auto;
+    margin-bottom: 20px;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #eae8f2;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+.cart-item img {
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+}
+
+.cart-item p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.cart-item button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.cart-item .quantity-control {
+    display: flex;
+    align-items: center;
+}
+
+.cart-item .quantity-control button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 0 5px;
+}
+
+.cart-item .quantity-control button:hover {
+    background-color: #0056b3;
+}
+
+/* Price Details */
+.price-details p1 {
+    display: block;
+    float: right;
+    font-size: small;
+    color: #918787;
+}
+.price-details h3 {
+    margin-bottom: 15px;
+}
+
+.price-details p {
+    margin: 5px 0;
+}
+
+.price-details button {
+    margin-top: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.price-details button:hover {
+    background-color: #073311;
+}
+.removeb button:hover{
+    background-color: #910808;
+}
+
+

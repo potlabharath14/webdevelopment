@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Platform</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+   
+        <!-- Header -->
+        <h1 class="header-title">E-Commerce Platform</h1>
+        <div class="container">
+          <!-- Product Listing Section -->
+          <div class="products" id="products"></div>
+        </div>
+        <!-- Cart Section -->
+        <div class="cart-section">
+            <h2>Cart</h2>
+            <div class="cart-items" id="cart-items"></div>
+            <div class="price-details">
+                <p1>(Discount applicable for total MRP > 100)</p1>
+                <h3>Price Details</h3>
+                <p>Total MRP: ₹<span id="total-mrp">0</span></p>
+                <p>Coupon Discount: ₹<span id="discount">50</span></p>
+                <p>Platform Fee: ₹<span id="platform-fee">10</span></p>
+                <p>Shipping Charges: ₹<span id="shipping-charges">20</span></p>
+                <p>Total Amount: ₹<span id="total-amount">0</span></p>
+                <button onclick="placeOrder()">Place Order</button>
+            </div>
+        </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
